@@ -417,8 +417,32 @@ section {
 ========================= */
 
 #projects {
+  padding-top: 4rem;
+  scroll-margin-top: 80px;
   border-top: 1px solid var(--border);
   background: var(--bg-soft);
+}
+
+.work-category {
+  margin-top: 3rem;
+  scroll-margin-top: 110px;
+}
+
+.work-category-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.focus-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.focus-card:hover {
+  transform: translateY(-6px);
 }
 
 .projects-grid {
