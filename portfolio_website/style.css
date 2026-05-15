@@ -367,12 +367,6 @@ section {
   transition: 0.25s ease;
 }
 
-.skill-tag:hover {
-  color: white;
-  background: rgba(139, 92, 246, 0.35);
-  border-color: rgba(167, 139, 250, 0.6);
-  transform: translateY(-2px);
-}
 
 .about-focus-grid {
   display: grid;
